@@ -74,6 +74,14 @@ p{
 	font-size: 14pt;
 }
 
+#title-name{
+	font-size: 26pt;
+	font-family: 'Oswald', cursive;
+	top: -12px;
+	position: relative;
+	margin-left: 78vw;
+}
+
 
 footer{
 	width:100vw;
@@ -81,4 +89,16 @@ footer{
 	padding: 10px;
 	position: absolute;
 	bottom: 0;
+}
+
+@media(max-width:760px){
+	.card-li{
+		display: block;
+	}
+
+	#title-name{
+		margin-left:350px;
+	}
+
+
 }
