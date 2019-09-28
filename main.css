@@ -96,7 +96,7 @@ footer{
 }
 
 @media (max-width:800px){
-	li{
+	#ul1.li{
 		display: none;
 	}
 
