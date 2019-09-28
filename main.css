@@ -12,7 +12,7 @@ body{
 	background: #000;
 	overflow-x: hidden;
 	color: #fff;
-	height: 100vh;
+	min-height: 100vh;
 	overflow-y: hidden;
 }
 
@@ -91,15 +91,25 @@ footer{
 	bottom: 0;
 }
 
-@media(max-width:760px){
-	.card-li{
-		display: block;
+#mobile-content{
+	display: none;
+}
+
+@media (max-width:800px){
+	li{
+		display: none;
 	}
 
 	#title-name{
-		margin-left:350px;
-		font-size: 18pt;
+		display: none;
 	}
 
+	#mobile-content{
+		display: block;
+	}
+
+	body{
+		overflow-y: visible;
+	}
 
 }
